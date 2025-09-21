@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "settings": {
+    "Count Up": true,
+    "Count In Milliseconds": false,
+    "Events to Display": 5,
+    "Only Display When Suit Equipped": false,
+    "HudScale": {
+      "max": 80,
+      "min": 10,
+      "type": "slider",
+      "value": 38.0,
+      "title": "Event List Width"
+    },
+    "Sun": {
+      "no": "No",
+      "type": "toggle",
+      "value": true,
+      "yes": "Yes",
+      "title": "Show Sun Events"
+    },
+    "TimeLoop": {
+      "no": "No",
+      "type": "toggle",
+      "value": true,
+      "yes": "Yes",
+      "title": "Show Timeloop Events"
+    },
+    "WarpPlatforms": {
+      "no": "No",
+      "type": "toggle",
+      "value": true,
+      "yes": "Yes",
+      "title": "Show Warp Platform Events"
+    },
+    "Chert": {
+      "no": "No",
+      "type": "toggle",
+      "value": true,
+      "yes": "Yes",
+      "title": "Show Chert's Mood"
+    },
+    "Misc": {
+      "no": "No",
+      "type": "toggle",
+      "value": true,
+      "yes": "Yes",
+      "title": "Show Other Events"
+    },
+    "EotE": {
+      "no": "No",
+      "type": "toggle",
+      "value": false,
+      "yes": "Yes",
+      "title": "Show Echoes of the Eye Events"
+    }
+  }
+}

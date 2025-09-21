@@ -1,0 +1,10 @@
+{
+	"$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+	"filename": "CheatsMod.dll",
+	"author": "MegaPiggy & PacificEngine",
+	"name": "Cheats Mod",
+	"uniqueName": "PacificEngine.CheatsMod",
+	"version": "0.7.6",
+	"owmlVersion": "2.13.0",
+	"conflicts": [ "PacificEngine.OW_CommonResources" ]
+}
