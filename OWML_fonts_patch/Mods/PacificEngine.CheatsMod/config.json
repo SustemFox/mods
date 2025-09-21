@@ -1,209 +1,717 @@
 {
   "enabled": true,
   "settings": {
-    "Vodyanoy znak": {
-      "no": "Disabled",
+    "Watermark": {
       "type": "toggle",
       "value": false,
-      "yes": "Enabled",
-      "title": "Vodyanoy znak"
+      "yes": "Включено",
+      "no": "Отключено",
+      "title": "Водяной знак"
     },
-    "Bessmertie igroka": {
-      "no": "Disabled",
+    "Player Invincible": {
       "type": "toggle",
       "value": false,
-      "yes": "Enabled",
-      "title": "Bessmertie igroka"
+      "yes": "Включено",
+      "no": "Отключено",
+      "title": "Бессмертие игрока"
     },
-    "Bessmertie korablya": {
-      "no": "Disabled",
+    "Ship Invincible": {
       "type": "toggle",
       "value": false,
-      "yes": "Enabled",
-      "title": "Bessmertie korablya"
+      "yes": "Включено",
+      "no": "Отключено",
+      "title": "Бессмертие корабля"
     },
-    "Beskonechnoe zdorove": {
-      "no": "Disabled",
+    "Unlimited Health": {
       "type": "toggle",
       "value": false,
-      "yes": "Enabled",
-      "title": "Beskonechnoe zdorove"
+      "yes": "Включено",
+      "no": "Отключено",
+      "title": "Бесконечное здоровье"
     },
-    "Beskonechnoe toplivo": {
-      "no": "Disabled",
+    "Unlimited Fuel": {
       "type": "toggle",
       "value": false,
-      "yes": "Enabled",
-      "title": "Beskonechnoe toplivo"
+      "yes": "Включено",
+      "no": "Отключено",
+      "title": "Бесконечное топливо"
     },
-    "Beskonechnyy kislorod": {
-      "no": "Disabled",
+    "Unlimited Oxygen": {
       "type": "toggle",
       "value": false,
-      "yes": "Enabled",
-      "title": "Beskonechnyy kislorod"
+      "yes": "Включено",
+      "no": "Отключено",
+      "title": "Бесконечный кислород"
     },
-    "Beskonechnyy uskoritel": {
-      "no": "Disabled",
+    "Unlimited Boost": {
       "type": "toggle",
       "value": false,
-      "yes": "Enabled",
-      "title": "Beskonechnyy uskoritel"
+      "yes": "Включено",
+      "no": "Отключено",
+      "title": "Бесконечный ускоритель"
     },
-    "II udilshchika": {
-      "no": "Disabled",
+    "Anglerfish AI": {
       "type": "toggle",
       "value": true,
-      "yes": "Enabled",
-      "title": "II udilshchika"
+      "yes": "Включено",
+      "no": "Отключено",
+      "title": "ИИ удильщика"
     },
-    "II zhiteley": {
-      "no": "Disabled",
+    "Inhabitants AI": {
       "type": "toggle",
       "value": true,
-      "yes": "Enabled",
-      "title": "II zhiteley"
+      "yes": "Включено",
+      "no": "Отключено",
+      "title": "ИИ жителей"
     },
-    "Tuman": {
-      "no": "Disabled",
+    "Fog": {
       "type": "toggle",
       "value": true,
-      "yes": "Enabled",
-      "title": "Tuman"
+      "yes": "Включено",
+      "no": "Отключено",
+      "title": "Туман"
     },
-    "Ogranichenie tyagi": {
-      "no": "Disabled",
+    "Thrust Limit": {
       "type": "toggle",
       "value": false,
-      "yes": "Enabled",
-      "title": "Ogranichenie tyagi"
+      "yes": "Включено",
+      "no": "Отключено",
+      "title": "Ограничение тяги"
     },
-    "Zapolnit toplivo i zdorove": "C,J",
-    "Pereklyuchit shlem": "C,H",
-    "Pereklyuchit bessmertie igroka": "C,I",
-    "Pereklyuchit bessmertie korablya": "C,Q",
-    "Pereklyuchit skafandr": "C,G",
-    "Pereklyuchit trenirovochnyy kostyum": "C,Digit1",
-    "Gravitatsiya igroka": "P,G",
-    "Gravitatsiya korablya": "S,G",
-    "Stolknoveniya igroka": "P,C",
-    "Stolknoveniya korablya": "S,C",
-    "Stolknoveniya igroka s zhidkostyu": "P,F",
-    "Stolknoveniya korablya s zhidkostyu": "S,F",
-    "Beskonechnyy uskoritel (vkl/vykl)": "C,T",
-    "Beskonechnoe toplivo (vkl/vykl)": "C,Y",
-    "Beskonechnyy kislorod (vkl/vykl)": "C,O",
-    "Beskonechnoe zdorove (vkl/vykl)": "C,U",
-    "Kody zapuska": "C,L",
-    "Koordinaty Oka": "C,E",
-    "Vse chastoty": "C,F",
-    "Slukhi": "C,R",
-    "Tuman (vkl/vykl)": "F,O,G",
-    "II udilshchika (vkl/vykl)": "V,I",
-    "II zhiteley (vkl/vykl)": "V,O",
-    "Vrazhdebnost zhiteley": "V,H",
-    "Taymer sverkhnovoy": "V,Digit0",
-    "Umenshit taymer sverkhnovoy": "V,Minus",
-    "Uvelichit taymer sverkhnovoy": "V,Equals",
-    "Kvantovaya luna: kollaps": "Q,Digit0",
-    "Kvantovaya luna: Peschanye bliznetsy": "Q,Digit1",
-    "Kvantovaya luna: Drevesnaya khizhina": "Q,Digit2",
-    "Kvantovaya luna: Khrupkaya polost": "Q,Digit3",
-    "Kvantovaya luna: Glubiny gigantov": "Q,Digit4",
-    "Kvantovaya luna: Temnaya ezhevika": "Q,Digit5",
-    "Kvantovaya luna: Oko": "Q,Digit6",
-    "Uvelichit uskorenie rantsa": "P,Equals",
-    "Umenshit uskorenie rantsa": "P,Minus",
-    "Umenshit uskorenie korablya": "O,Minus",
-    "Uvelichit uskorenie korablya": "O,Equals",
-    "Teleport k Solntsu": "T,Digit1",
-    "Teleport k Solnechnoy stantsii": "T,Digit2",
-    "Teleport k Peschanym bliznetsam": "T,Digit3",
-    "Teleport k Pepelnomu bliznetsu": "T,Digit4",
-    "Teleport k Proektu Pepelnogo bliznetsa": "T,Numpad8",
-    "Teleport k Drevesnoy khizhine": "T,Digit5",
-    "Teleport k sputniku SkyShutter": "T,Numpad1",
-    "Teleport k Atteroku": "T,Digit6",
-    "Teleport k Khrupkoy polosti": "T,Digit7",
-    "Teleport k Fonaryu polosti": "T,Digit8",
-    "Teleport k Glubinam gigantov": "T,Digit9",
-    "Teleport k pushke-zondu": "T,Numpad2",
-    "Teleport k modulyu slezheniya pushki-zonda": "T,NumpadPeriod",
-    "Teleport k Temnoy ezhevike": "T,Digit0",
-    "Teleport k Nezvanomu gostyu": "T,Numpad0",
-    "Teleport k Beloy dyre": "T,Numpad3",
-    "Teleport k stantsii Beloy dyry": "T,Numpad4",
-    "Teleport k Stranniku": "T,Numpad5",
-    "Teleport v Mir snov": "T,Numpad6",
-    "Teleport k Kvantovoy lune": "T,Numpad7",
-    "Teleport k korablyu": "T,Numpad9",
-    "Teleportirovat korabl k igroku": "T,NumpadDivide",
-    "Teleport k zondu": "T,NumpadMultiply",
-    "Teleport k zondy Nomai": "T,NumpadMinus",
-    "Teleport k Sudnu": "T,NumpadPlus",
-    "Teleport k kartograficheskomu sputniku": "T,M",
-    "Teleport k sputniku sponsorov": "T,B",
-    "Dat yadro varpa: Sudno": "G,T,Digit1",
-    "Dat yadro varpa: Slomannoe": "G,T,Digit2",
-    "Dat yadro varpa: Chernoe": "G,T,Digit3",
-    "Dat yadro varpa: Beloe": "G,T,Digit4",
-    "Ubrat yadro varpa": "G,T,Digit5",
-    "Dat fonar: obychnyy": "G,L,Digit1",
-    "Dat fonar: slomannyy": "G,L,Digit2",
-    "Dat fonar: pokolenie 1": "G,L,Digit3",
-    "Dat fonar: pokolenie 2": "G,L,Digit4",
-    "Dat fonar: pokolenie 3": "G,L,Digit5",
-    "Dat fakel videniy": "G,L,Digit6",
-    "Give Slide Story 1": "G,R,S,Digit1",
-    "Give Slide Story 2": "G,R,S,Digit2",
-    "Give Slide Story 3": "G,R,S,Digit3",
-    "Give Slide Story 4": "G,R,S,Digit4",
-    "Give Slide Story 5": "G,R,S,Digit5",
-    "Give Slide Burning": "G,R,S,Digit6",
-    "Give Slide Experiment": "G,R,S,Digit7",
-    "Give Slide DamageReport": "G,R,S,Digit8",
-    "Give Slide LanternSecret": "G,R,S,Digit9",
-    "Give Slide Prisoner": "G,R,S,Numpad0",
-    "Give Slide PrisonerFarewell": "G,R,S,Numpad1",
-    "Give Slide Tower": "G,R,S,Numpad2",
-    "Give Slide SignalJammer": "G,R,S,Numpad3",
-    "Give Slide Homeworld": "G,R,S,Numpad4",
-    "Give Slide SupernovaEscape": "G,R,S,Numpad5",
-    "Give Slide Path 1": "G,R,P,Digit1",
-    "Give Slide Path 2": "G,R,P,Digit2",
-    "Give Slide Path 3": "G,R,P,Digit3",
-    "Give Slide Seal 1": "G,R,P,Digit4",
-    "Give Slide Seal 2": "G,R,P,Digit5",
-    "Give Slide Seal 3": "G,R,P,Digit6",
-    "Give Slide Rule 1": "G,R,P,Digit7",
-    "Give Slide Rule 2": "G,R,P,Digit8",
-    "Give Slide Rule 3": "G,R,P,Digit9",
-    "Give Slide Rule 4": "G,R,P,Digit0",
-    "Give Identify Conversation Stone": "C,Digit2",
-    "Give Explain Conversation Stone": "C,Digit3",
-    "Give Eye Conversation Stone": "C,Digit4",
-    "Give Quantum Moon Conversation Stone": "C,Digit5",
-    "Give You Conversation Stone": "C,Digit6",
-    "Give Me Conversation Stone": "C,Digit7",
-    "Give Nomai Conversation Stone": "C,Digit8",
-    "Give Sun Station Projection Stone": "P,S,Digit1",
-    "Give Time Loop Projection Stone": "P,S,Digit2",
-    "Give Eye Locator Projection Stone": "P,S,Digit3",
-    "Give Mine Projection Stone": "P,S,Digit4",
-    "Give Observatory Projection Stone": "P,S,Digit5",
-    "Give Gravity Cannon Projection Stone": "P,S,Digit6",
-    "Give Quantum Fragment Projection Stone": "P,S,Digit7",
-    "Give Black Hole Forge Projection Stone": "P,S,Digit8",
-    "Give Construction Yard 1st Projection Stone": "P,S,Digit9",
-    "Give Construction Yard 2nd Projection Stone": "P,S,Digit0",
-    "Give Statue Projection Stone": "P,S,Numpad1",
-    "Give Tracking Module Projection Stone": "P,S,Numpad2",
-    "Give Launch Module Projection Stone": "P,S,Numpad3",
-    "Give Control Module Projection Stone": "P,S,Numpad4",
-    "Give Volcanic Projection Stone": "P,S,Numpad5",
-    "Give High Energy Lab Projection Stone": "P,S,Numpad6",
-    "Give North Pole Projection Stone": "P,S,Numpad7",
-    "Katapultirovat korabl": "LeftAlt,Digit1",
-    "Vzorvat korabl": "LeftAlt,Digit2"
+    "Fill Fuel and Health": {
+      "type": "text",
+      "value": "C,J",
+      "title": "Заполнить топливо и здоровье"
+    },
+    "Toggle Helmet": {
+      "type": "text",
+      "value": "C,H",
+      "title": "Переключить шлем"
+    },
+    "Toggle Player Invincibility": {
+      "type": "text",
+      "value": "C,I",
+      "title": "Переключить бессмертие игрока"
+    },
+    "Toggle Ship Invincibility": {
+      "type": "text",
+      "value": "C,Q",
+      "title": "Переключить бессмертие корабля"
+    },
+    "Toggle Spacesuit": {
+      "type": "text",
+      "value": "C,G",
+      "title": "Переключить скафандр"
+    },
+    "Toggle Training Suit": {
+      "type": "text",
+      "value": "C,Digit1",
+      "title": "Переключить тренировочный костюм"
+    },
+    "Toggle Player Gravity": {
+      "type": "text",
+      "value": "P,G",
+      "title": "Переключить гравитацию игрока"
+    },
+    "Toggle Ship Gravity": {
+      "type": "text",
+      "value": "S,G",
+      "title": "Переключить гравитацию корабля"
+    },
+    "Toggle Player Collision": {
+      "type": "text",
+      "value": "P,C",
+      "title": "Переключить столкновения игрока"
+    },
+    "Toggle Ship Collision": {
+      "type": "text",
+      "value": "S,C",
+      "title": "Переключить столкновения корабля"
+    },
+    "Toggle Player Fluid Collision": {
+      "type": "text",
+      "value": "P,F",
+      "title": "Переключить столкновения игрока с жидкостью"
+    },
+    "Toggle Ship Fluid Collision": {
+      "type": "text",
+      "value": "S,F",
+      "title": "Переключить столкновения корабля с жидкостью"
+    },
+    "Toggle Unlimited Boost": {
+      "type": "text",
+      "value": "C,T",
+      "title": "Переключить бесконечный ускоритель"
+    },
+    "Toggle Unlimited Fuel": {
+      "type": "text",
+      "value": "C,Y",
+      "title": "Переключить бесконечное топливо"
+    },
+    "Toggle Unlimited Oxygen": {
+      "type": "text",
+      "value": "C,O",
+      "title": "Переключить бесконечный кислород"
+    },
+    "Toggle Unlimited Health": {
+      "type": "text",
+      "value": "C,U",
+      "title": "Переключить бесконечное здоровье"
+    },
+    "Toggle Launch Codes": {
+      "type": "text",
+      "value": "C,L",
+      "title": "Переключить коды запуска"
+    },
+    "Toggle Eye Coordinates": {
+      "type": "text",
+      "value": "C,E",
+      "title": "Переключить координаты Ока"
+    },
+    "Toggle All Frequencies": {
+      "type": "text",
+      "value": "C,F",
+      "title": "Переключить все частоты"
+    },
+    "Toggle Rumors": {
+      "type": "text",
+      "value": "C,R",
+      "title": "Переключить слухи"
+    },
+    "Toggle Fog": {
+      "type": "text",
+      "value": "F,O,G",
+      "title": "Переключить туман"
+    },
+    "Toggle Anglerfish AI": {
+      "type": "text",
+      "value": "V,I",
+      "title": "Переключить ИИ удильщика"
+    },
+    "Toggle Inhabitants AI": {
+      "type": "text",
+      "value": "V,O",
+      "title": "Переключить ИИ жителей"
+    },
+    "Toggle Inhabitants Hostility": {
+      "type": "text",
+      "value": "V,H",
+      "title": "Переключить враждебность жителей"
+    },
+    "Toggle Supernova Timer": {
+      "type": "text",
+      "value": "V,Digit0",
+      "title": "Переключить таймер сверхновой"
+    },
+    "Decrease Supernova Timer": {
+      "type": "text",
+      "value": "V,Minus",
+      "title": "Уменьшить таймер сверхновой"
+    },
+    "Increase Supernova Timer": {
+      "type": "text",
+      "value": "V,Equals",
+      "title": "Увеличить таймер сверхновой"
+    },
+    "Quantum Moon Collapse": {
+      "type": "text",
+      "value": "Q,Digit0",
+      "title": "Квантовая луна: коллапс"
+    },
+    "Quantum Moon EmberTwin": {
+      "type": "text",
+      "value": "Q,Digit1",
+      "title": "Квантовая луна: Песчаные близнецы"
+    },
+    "Quantum Moon TimberHearth": {
+      "type": "text",
+      "value": "Q,Digit2",
+      "title": "Квантовая луна: Древесная хижина"
+    },
+    "Quantum Moon BrittleHollow": {
+      "type": "text",
+      "value": "Q,Digit3",
+      "title": "Квантовая луна: Хрупкая полость"
+    },
+    "Quantum Moon GiantsDeep": {
+      "type": "text",
+      "value": "Q,Digit4",
+      "title": "Квантовая луна: Глубины гигантов"
+    },
+    "Quantum Moon DarkBramble": {
+      "type": "text",
+      "value": "Q,Digit5",
+      "title": "Квантовая луна: Тёмная ежевика"
+    },
+    "Quantum Moon Eye": {
+      "type": "text",
+      "value": "Q,Digit6",
+      "title": "Квантовая луна: Око"
+    },
+    "Increase Jetpack Acceleration": {
+      "type": "text",
+      "value": "P,Equals",
+      "title": "Увеличить ускорение ранца"
+    },
+    "Decrease Jetpack Acceleration": {
+      "type": "text",
+      "value": "P,Minus",
+      "title": "Уменьшить ускорение ранца"
+    },
+    "Decrease Ship Acceleration": {
+      "type": "text",
+      "value": "O,Minus",
+      "title": "Уменьшить ускорение корабля"
+    },
+    "Increase Ship Acceleration": {
+      "type": "text",
+      "value": "O,Equals",
+      "title": "Увеличить ускорение корабля"
+    },
+    "Teleport To Sun": {
+      "type": "text",
+      "value": "T,Digit1",
+      "title": "Телепорт к Солнцу"
+    },
+    "Teleport To SunStation": {
+      "type": "text",
+      "value": "T,Digit2",
+      "title": "Телепорт к Солнечной станции"
+    },
+    "Teleport To EmberTwin": {
+      "type": "text",
+      "value": "T,Digit3",
+      "title": "Телепорт к Песчаным близнецам"
+    },
+    "Teleport To AshTwin": {
+      "type": "text",
+      "value": "T,Digit4",
+      "title": "Телепорт к Пепельному близнецу"
+    },
+    "Teleport To AshTwinProject": {
+      "type": "text",
+      "value": "T,Numpad8",
+      "title": "Телепорт к Проекту Пепельного близнеца"
+    },
+    "Teleport To TimberHearth": {
+      "type": "text",
+      "value": "T,Digit5",
+      "title": "Телепорт к Древесной хижине"
+    },
+    "Teleport To SkyShutterSatellite": {
+      "type": "text",
+      "value": "T,Numpad1",
+      "title": "Телепорт к спутнику «SkyShutter»"
+    },
+    "Teleport To Attlerock": {
+      "type": "text",
+      "value": "T,Digit6",
+      "title": "Телепорт к Аттероку"
+    },
+    "Teleport To BrittleHollow": {
+      "type": "text",
+      "value": "T,Digit7",
+      "title": "Телепорт к Хрупкой полости"
+    },
+    "Teleport To HollowsLantern": {
+      "type": "text",
+      "value": "T,Digit8",
+      "title": "Телепорт к Фонарю полости"
+    },
+    "Teleport To GiantsDeep": {
+      "type": "text",
+      "value": "T,Digit9",
+      "title": "Телепорт к Глубинам гигантов"
+    },
+    "Teleport To ProbeCannon": {
+      "type": "text",
+      "value": "T,Numpad2",
+      "title": "Телепорт к пушке-зонду"
+    },
+    "Teleport To ProbeCannonTrackingModule": {
+      "type": "text",
+      "value": "T,NumpadPeriod",
+      "title": "Телепорт к модулю слежения пушки-зонда"
+    },
+    "Teleport To DarkBramble": {
+      "type": "text",
+      "value": "T,Digit0",
+      "title": "Телепорт к Тёмной ежевике"
+    },
+    "Teleport To Interloper": {
+      "type": "text",
+      "value": "T,Numpad0",
+      "title": "Телепорт к Незваному гостю"
+    },
+    "Teleport To WhiteHole": {
+      "type": "text",
+      "value": "T,Numpad3",
+      "title": "Телепорт к Белой дыре"
+    },
+    "Teleport To WhiteHoleStation": {
+      "type": "text",
+      "value": "T,Numpad4",
+      "title": "Телепорт к станции Белой дыры"
+    },
+    "Teleport To Stranger": {
+      "type": "text",
+      "value": "T,Numpad5",
+      "title": "Телепорт к Страннику"
+    },
+    "Teleport To DreamWorld": {
+      "type": "text",
+      "value": "T,Numpad6",
+      "title": "Телепорт в Мир снов"
+    },
+    "Teleport To QuantumMoon": {
+      "type": "text",
+      "value": "T,Numpad7",
+      "title": "Телепорт к Квантовой луне"
+    },
+    "Teleport To Ship": {
+      "type": "text",
+      "value": "T,Numpad9",
+      "title": "Телепорт к кораблю"
+    },
+    "Teleport Ship To Player": {
+      "type": "text",
+      "value": "T,NumpadDivide",
+      "title": "Телепортировать корабль к игроку"
+    },
+    "Teleport To Probe": {
+      "type": "text",
+      "value": "T,NumpadMultiply",
+      "title": "Телепорт к зонду"
+    },
+    "Teleport To Nomai Probe": {
+      "type": "text",
+      "value": "T,NumpadMinus",
+      "title": "Телепорт к зонду Номаи"
+    },
+    "Teleport To Vessel": {
+      "type": "text",
+      "value": "T,NumpadPlus",
+      "title": "Телепорт к Судну"
+    },
+    "Teleport To Mapping Satellite": {
+      "type": "text",
+      "value": "T,M",
+      "title": "Телепорт к картографическому спутнику"
+    },
+    "Teleport To Backer Satellite": {
+      "type": "text",
+      "value": "T,B",
+      "title": "Телепорт к спутнику спонсоров"
+    },
+    "Give Warp Core Vessel": {
+      "type": "text",
+      "value": "G,T,Digit1",
+      "title": "Выдать варп-ядро: Судно"
+    },
+    "Give Warp Core Broken": {
+      "type": "text",
+      "value": "G,T,Digit2",
+      "title": "Выдать варп-ядро: сломанное"
+    },
+    "Give Warp Core Black": {
+      "type": "text",
+      "value": "G,T,Digit3",
+      "title": "Выдать варп-ядро: чёрное"
+    },
+    "Give Warp Core White": {
+      "type": "text",
+      "value": "G,T,Digit4",
+      "title": "Выдать варп-ядро: белое"
+    },
+    "Give Warp Core None": {
+      "type": "text",
+      "value": "G,T,Digit5",
+      "title": "Убрать варп-ядро"
+    },
+    "Give Lantern Basic": {
+      "type": "text",
+      "value": "G,L,Digit1",
+      "title": "Выдать фонарь: обычный"
+    },
+    "Give Lantern Broken": {
+      "type": "text",
+      "value": "G,L,Digit2",
+      "title": "Выдать фонарь: сломанный"
+    },
+    "Give Lantern Gen1": {
+      "type": "text",
+      "value": "G,L,Digit3",
+      "title": "Выдать фонарь: поколение 1"
+    },
+    "Give Lantern Gen2": {
+      "type": "text",
+      "value": "G,L,Digit4",
+      "title": "Выдать фонарь: поколение 2"
+    },
+    "Give Lantern Gen3": {
+      "type": "text",
+      "value": "G,L,Digit5",
+      "title": "Выдать фонарь: поколение 3"
+    },
+    "Give Vision Torch": {
+      "type": "text",
+      "value": "G,L,Digit6",
+      "title": "Выдать факел видений"
+    },
+    "Give Slide Story 1": {
+      "type": "text",
+      "value": "G,R,S,Digit1",
+      "title": "Выдать сюжетный слайд 1"
+    },
+    "Give Slide Story 2": {
+      "type": "text",
+      "value": "G,R,S,Digit2",
+      "title": "Выдать сюжетный слайд 2"
+    },
+    "Give Slide Story 3": {
+      "type": "text",
+      "value": "G,R,S,Digit3",
+      "title": "Выдать сюжетный слайд 3"
+    },
+    "Give Slide Story 4": {
+      "type": "text",
+      "value": "G,R,S,Digit4",
+      "title": "Выдать сюжетный слайд 4"
+    },
+    "Give Slide Story 5": {
+      "type": "text",
+      "value": "G,R,S,Digit5",
+      "title": "Выдать сюжетный слайд 5"
+    },
+    "Give Slide Burning": {
+      "type": "text",
+      "value": "G,R,S,Digit6",
+      "title": "Выдать слайд «Пламя»"
+    },
+    "Give Slide Experiment": {
+      "type": "text",
+      "value": "G,R,S,Digit7",
+      "title": "Выдать слайд «Эксперимент»"
+    },
+    "Give Slide DamageReport": {
+      "type": "text",
+      "value": "G,R,S,Digit8",
+      "title": "Выдать слайд «Отчёт о повреждениях»"
+    },
+    "Give Slide LanternSecret": {
+      "type": "text",
+      "value": "G,R,S,Digit9",
+      "title": "Выдать слайд «Тайна фонаря»"
+    },
+    "Give Slide Prisoner": {
+      "type": "text",
+      "value": "G,R,S,Numpad0",
+      "title": "Выдать слайд «Заключённый»"
+    },
+    "Give Slide PrisonerFarewell": {
+      "type": "text",
+      "value": "G,R,S,Numpad1",
+      "title": "Выдать слайд «Прощание заключённого»"
+    },
+    "Give Slide Tower": {
+      "type": "text",
+      "value": "G,R,S,Numpad2",
+      "title": "Выдать слайд «Башня»"
+    },
+    "Give Slide SignalJammer": {
+      "type": "text",
+      "value": "G,R,S,Numpad3",
+      "title": "Выдать слайд «Глушитель сигнала»"
+    },
+    "Give Slide Homeworld": {
+      "type": "text",
+      "value": "G,R,S,Numpad4",
+      "title": "Выдать слайд «Родной мир»"
+    },
+    "Give Slide SupernovaEscape": {
+      "type": "text",
+      "value": "G,R,S,Numpad5",
+      "title": "Выдать слайд «Побег от сверхновой»"
+    },
+    "Give Slide Path 1": {
+      "type": "text",
+      "value": "G,R,P,Digit1",
+      "title": "Выдать слайд «Путь 1»"
+    },
+    "Give Slide Path 2": {
+      "type": "text",
+      "value": "G,R,P,Digit2",
+      "title": "Выдать слайд «Путь 2»"
+    },
+    "Give Slide Path 3": {
+      "type": "text",
+      "value": "G,R,P,Digit3",
+      "title": "Выдать слайд «Путь 3»"
+    },
+    "Give Slide Seal 1": {
+      "type": "text",
+      "value": "G,R,P,Digit4",
+      "title": "Выдать слайд «Печать 1»"
+    },
+    "Give Slide Seal 2": {
+      "type": "text",
+      "value": "G,R,P,Digit5",
+      "title": "Выдать слайд «Печать 2»"
+    },
+    "Give Slide Seal 3": {
+      "type": "text",
+      "value": "G,R,P,Digit6",
+      "title": "Выдать слайд «Печать 3»"
+    },
+    "Give Slide Rule 1": {
+      "type": "text",
+      "value": "G,R,P,Digit7",
+      "title": "Выдать слайд «Правило 1»"
+    },
+    "Give Slide Rule 2": {
+      "type": "text",
+      "value": "G,R,P,Digit8",
+      "title": "Выдать слайд «Правило 2»"
+    },
+    "Give Slide Rule 3": {
+      "type": "text",
+      "value": "G,R,P,Digit9",
+      "title": "Выдать слайд «Правило 3»"
+    },
+    "Give Slide Rule 4": {
+      "type": "text",
+      "value": "G,R,P,Digit0",
+      "title": "Выдать слайд «Правило 4»"
+    },
+    "Give Identify Conversation Stone": {
+      "type": "text",
+      "value": "C,Digit2",
+      "title": "Выдать камень беседы «Опознать»"
+    },
+    "Give Explain Conversation Stone": {
+      "type": "text",
+      "value": "C,Digit3",
+      "title": "Выдать камень беседы «Объяснить»"
+    },
+    "Give Eye Conversation Stone": {
+      "type": "text",
+      "value": "C,Digit4",
+      "title": "Выдать камень беседы «Око»"
+    },
+    "Give Quantum Moon Conversation Stone": {
+      "type": "text",
+      "value": "C,Digit5",
+      "title": "Выдать камень беседы «Квантовая луна»"
+    },
+    "Give You Conversation Stone": {
+      "type": "text",
+      "value": "C,Digit6",
+      "title": "Выдать камень беседы «Ты»"
+    },
+    "Give Me Conversation Stone": {
+      "type": "text",
+      "value": "C,Digit7",
+      "title": "Выдать камень беседы «Я»"
+    },
+    "Give Nomai Conversation Stone": {
+      "type": "text",
+      "value": "C,Digit8",
+      "title": "Выдать камень беседы «Номаи»"
+    },
+    "Give Sun Station Projection Stone": {
+      "type": "text",
+      "value": "P,S,Digit1",
+      "title": "Выдать проекционный камень «Солнечная станция»"
+    },
+    "Give Time Loop Projection Stone": {
+      "type": "text",
+      "value": "P,S,Digit2",
+      "title": "Выдать проекционный камень «Петля времени»"
+    },
+    "Give Eye Locator Projection Stone": {
+      "type": "text",
+      "value": "P,S,Digit3",
+      "title": "Выдать проекционный камень «Локатор Ока»"
+    },
+    "Give Mine Projection Stone": {
+      "type": "text",
+      "value": "P,S,Digit4",
+      "title": "Выдать проекционный камень «Шахта»"
+    },
+    "Give Observatory Projection Stone": {
+      "type": "text",
+      "value": "P,S,Digit5",
+      "title": "Выдать проекционный камень «Обсерватория»"
+    },
+    "Give Gravity Cannon Projection Stone": {
+      "type": "text",
+      "value": "P,S,Digit6",
+      "title": "Выдать проекционный камень «Гравитационная пушка»"
+    },
+    "Give Quantum Fragment Projection Stone": {
+      "type": "text",
+      "value": "P,S,Digit7",
+      "title": "Выдать проекционный камень «Квантовый фрагмент»"
+    },
+    "Give Black Hole Forge Projection Stone": {
+      "type": "text",
+      "value": "P,S,Digit8",
+      "title": "Выдать проекционный камень «Кузница чёрной дыры»"
+    },
+    "Give Construction Yard 1st Projection Stone": {
+      "type": "text",
+      "value": "P,S,Digit9",
+      "title": "Выдать проекционный камень «Строительная площадка 1»"
+    },
+    "Give Construction Yard 2nd Projection Stone": {
+      "type": "text",
+      "value": "P,S,Digit0",
+      "title": "Выдать проекционный камень «Строительная площадка 2»"
+    },
+    "Give Statue Projection Stone": {
+      "type": "text",
+      "value": "P,S,Numpad1",
+      "title": "Выдать проекционный камень «Статуя»"
+    },
+    "Give Tracking Module Projection Stone": {
+      "type": "text",
+      "value": "P,S,Numpad2",
+      "title": "Выдать проекционный камень «Отслеживающий модуль»"
+    },
+    "Give Launch Module Projection Stone": {
+      "type": "text",
+      "value": "P,S,Numpad3",
+      "title": "Выдать проекционный камень «Пусковой модуль»"
+    },
+    "Give Control Module Projection Stone": {
+      "type": "text",
+      "value": "P,S,Numpad4",
+      "title": "Выдать проекционный камень «Управляющий модуль»"
+    },
+    "Give Volcanic Projection Stone": {
+      "type": "text",
+      "value": "P,S,Numpad5",
+      "title": "Выдать проекционный камень «Вулканический»"
+    },
+    "Give High Energy Lab Projection Stone": {
+      "type": "text",
+      "value": "P,S,Numpad6",
+      "title": "Выдать проекционный камень «Лаборатория высокой энергии»"
+    },
+    "Give North Pole Projection Stone": {
+      "type": "text",
+      "value": "P,S,Numpad7",
+      "title": "Выдать проекционный камень «Северный полюс»"
+    },
+    "Eject Ship": {
+      "type": "text",
+      "value": "LeftAlt,Digit1",
+      "title": "Катапультировать корабль"
+    },
+    "Explode Ship": {
+      "type": "text",
+      "value": "LeftAlt,Digit2",
+      "title": "Взорвать корабль"
+    }
   }
 }

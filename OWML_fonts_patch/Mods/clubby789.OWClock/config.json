@@ -1,58 +1,80 @@
 {
   "enabled": true,
   "settings": {
-    "Count Up": true,
-    "Count In Milliseconds": false,
-    "Events to Display": 5,
-    "Only Display When Suit Equipped": false,
-    "HudScale": {
-      "max": 80,
-      "min": 10,
-      "type": "slider",
-      "value": 38.0,
-      "title": "Event List Width"
-    },
-    "Sun": {
-      "no": "No",
+    "Count Up": {
       "type": "toggle",
       "value": true,
-      "yes": "Yes",
-      "title": "Show Sun Events"
+      "title": "Отсчёт вперёд",
+      "yes": "Да",
+      "no": "Нет"
     },
-    "TimeLoop": {
-      "no": "No",
-      "type": "toggle",
-      "value": true,
-      "yes": "Yes",
-      "title": "Show Timeloop Events"
-    },
-    "WarpPlatforms": {
-      "no": "No",
-      "type": "toggle",
-      "value": true,
-      "yes": "Yes",
-      "title": "Show Warp Platform Events"
-    },
-    "Chert": {
-      "no": "No",
-      "type": "toggle",
-      "value": true,
-      "yes": "Yes",
-      "title": "Show Chert's Mood"
-    },
-    "Misc": {
-      "no": "No",
-      "type": "toggle",
-      "value": true,
-      "yes": "Yes",
-      "title": "Show Other Events"
-    },
-    "EotE": {
-      "no": "No",
+    "Count In Milliseconds": {
       "type": "toggle",
       "value": false,
-      "yes": "Yes",
-      "title": "Show Echoes of the Eye Events"
+      "title": "Показывать миллисекунды",
+      "yes": "Да",
+      "no": "Нет"
+    },
+    "Events to Display": {
+      "type": "number",
+      "value": 5,
+      "title": "Количество отображаемых событий"
+    },
+    "Only Display When Suit Equipped": {
+      "type": "toggle",
+      "value": false,
+      "title": "Показывать только в скафандре",
+      "yes": "Да",
+      "no": "Нет"
+    },
+    "HudScale": {
+      "title": "Ширина списка событий",
+      "type": "slider",
+      "value": 38.0,
+      "min": 10,
+      "max": 80
+    },
+    "Sun": {
+      "title": "Показывать события Солнца",
+      "type": "toggle",
+      "value": true,
+      "yes": "Да",
+      "no": "Нет"
+    },
+    "TimeLoop": {
+      "title": "Показывать события петли времени",
+      "type": "toggle",
+      "value": true,
+      "yes": "Да",
+      "no": "Нет"
+    },
+    "WarpPlatforms": {
+      "title": "Показывать события варп-платформ",
+      "type": "toggle",
+      "value": true,
+      "yes": "Да",
+      "no": "Нет"
+    },
+    "Chert": {
+      "title": "Показывать настроение Чёрта",
+      "type": "toggle",
+      "value": true,
+      "yes": "Да",
+      "no": "Нет"
+    },
+    "Misc": {
+      "title": "Показывать прочие события",
+      "type": "toggle",
+      "value": true,
+      "yes": "Да",
+      "no": "Нет"
+    },
+    "EotE": {
+      "title": "Показывать события «Эха Ока»",
+      "type": "toggle",
+      "value": false,
+      "yes": "Да",
+      "no": "Нет"
     }
   }
 }

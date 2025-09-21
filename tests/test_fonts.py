@@ -32,7 +32,11 @@ def load_required_characters() -> set[str]:
     """Collect the Cyrillic characters present in the mod configuration."""
 
     cheats_config = REPO_ROOT / "OWML_fonts_patch/Mods/PacificEngine.CheatsMod/config.json"
+    clock_config = REPO_ROOT / "OWML_fonts_patch/Mods/clubby789.OWClock/config.json"
+    clock_events = REPO_ROOT / "OWML_fonts_patch/Mods/clubby789.OWClock/events.json"
+
     texts: list[str] = []
+
     with cheats_config.open(encoding="utf-8") as handle:
         config = json.load(handle)
     for section in config.get("settings", {}).values():
@@ -42,6 +46,23 @@ def load_required_characters() -> set[str]:
             )
         elif isinstance(section, str):
             texts.append(section)
+
+    with clock_config.open(encoding="utf-8") as handle:
+        config = json.load(handle)
+    for section in config.get("settings", {}).values():
+        if isinstance(section, dict):
+            texts.extend(
+                value for key, value in section.items() if isinstance(value, str)
+            )
+        elif isinstance(section, str):
+            texts.append(section)
+
+    with clock_events.open(encoding="utf-8") as handle:
+        events = json.load(handle)
+    for entry in events.get("eventList", []):
+        name = entry.get("Name")
+        if isinstance(name, str):
+            texts.append(name)
     texts.append(
         "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"
         "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
