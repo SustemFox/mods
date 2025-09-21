@@ -1,0 +1,6 @@
+# Ignore downloaded fonts
+OWML_fonts_patch/Fonts/*.ttf
+OWML_fonts_patch/Mods/**/Fonts/*.ttf
+# Temporary download artifacts
+OWML_fonts_patch/Fonts/*.tmp
+OWML_fonts_patch/Mods/**/Fonts/*.tmp
