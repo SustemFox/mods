@@ -1,0 +1,7 @@
+{
+	"gamePath": "C:/Program Files (x86)/Steam/steamapps/common/Outer Wilds",
+	"debugMode": false,
+	"forceExe": false,
+	"incrementalGC": true,
+  "socketPort": 0
+}
